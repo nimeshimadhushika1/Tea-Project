@@ -1,0 +1,72 @@
+.tea-varieties-page {
+  display: flex;
+  background-color: #fff6d9;
+  height: 100vh;
+  padding: 30px;
+}
+
+.left-panel {
+  width: 30%;
+  padding-right: 20px;
+}
+
+.back-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.variety-list {
+  display: grid;
+  gap: 20px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.selected {
+  border-color: #2f855a;
+}
+
+.right-panel {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info-box {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.start-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f6c500;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.placeholder {
+  margin-top: 100px;
+  color: #999;
+  font-size: 18px;
+}

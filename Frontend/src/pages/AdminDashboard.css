@@ -1,0 +1,45 @@
+.dashboard {
+  padding: 30px;
+  background-color: #f0fdf4;
+}
+
+.featured-updates h2 {
+  font-size: 24px;
+  color: #2c7a7b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.updates-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.update-card {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.update-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.update-info h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #2d3748;
+}
+
+.update-info p {
+  font-size: 14px;
+  color: #4a5568;
+}

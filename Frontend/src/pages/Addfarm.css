@@ -1,0 +1,102 @@
+.addfarm-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #fefee8;
+  min-height: 100vh;
+  gap: 40px;
+}
+
+.form-section {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addfarm-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.addfarm-form h2 {
+  text-align: center;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.addfarm-form input,
+.addfarm-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e8f0fe;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.addfarm-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.variety-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.circle-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.circle-img.active {
+  border-color: #4caf50;
+}
+
+.variety-details {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.large-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description-box {
+  margin-top: 20px;
+}
+
+.description-box h4 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.start-button {
+  margin-top: 10px;
+  background-color: #ffc107;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

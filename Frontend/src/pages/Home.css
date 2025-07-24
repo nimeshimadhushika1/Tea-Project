@@ -1,0 +1,60 @@
+/* src/pages/Home.css */
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 60px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.overlay h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Quick Access Section */
+.quick-access {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.tile {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.tile h3 {
+  color: #2f5233;
+  margin-bottom: 12px;
+}
+
+.tile p {
+  font-size: 0.95rem;
+  color: #666;
+}
+

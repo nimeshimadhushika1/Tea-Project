@@ -1,0 +1,104 @@
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fefde9;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e7d32;
+}
+
+.about-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #33691e;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+  
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.value-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card h4 {
+  margin-bottom: 0.5rem;
+  color: #388e3c;
+}
+
+.value-card p {
+  color: #555;
+}
+
+.about-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.image-wrapper {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-caption {
+  flex: 1 1 50%;
+  padding: 1rem;
+}
+
+.tea-harvest {
+  width: 42%;
+  height:auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  animation: fade 1s ease-in-out;
+  transition:
+    opacity 1s ease-in-out,
+    width 1s ease-in-out,
+    max-width 1s ease-in-out,
+    height 1s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

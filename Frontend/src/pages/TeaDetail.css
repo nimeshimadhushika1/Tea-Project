@@ -1,0 +1,40 @@
+.tea-detail-container {
+  background-color: #fef3c7;
+  height: 100vh;
+  padding: 1.5rem;
+}
+
+.back-arrow {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.round-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 3px solid #ccc;
+  overflow: hidden;
+}
+
+.round-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tea-info h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tea-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.tea-info h4 {
+  color: #444;
+  font-weight: bold;
+}

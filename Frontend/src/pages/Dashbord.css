@@ -1,0 +1,51 @@
+/* Featured Updates */
+.featured-updates {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.featured-updates h2 {
+  margin-bottom: 20px;
+  color: #2c5f2d;
+  font-size: 1.8rem;
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.update-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background-color: #fafafa;
+  transition: transform 0.3s ease;
+}
+
+.update-card:hover {
+  transform: translateY(-8px);
+}
+
+.update-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.update-info {
+  padding: 16px;
+}
+
+.update-info h3 {
+  margin: 0 0 8px;
+  color: #1b4332;
+  font-size: 1.2rem;
+}
+
+.update-info p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
